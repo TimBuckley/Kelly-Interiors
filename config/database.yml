@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  database: kellyinteriors_dev
+  host: localhost
+  pool: 5
+  timeout: 5000
+  username: tbuckley
+  password:
+    
+test:
+  adapter: postgresql
+  database: kellyinteriors_test
+  host: localhost
+  pool: 5
+  timeout: 5000
+  username: tbuckley
+  password:

@@ -8,4 +8,4 @@
 
 
 Project.create!(title: "test proj", body: "test desc")
-Picture.create!(project_id: 1, photo: File.new("Pirates4JackSparrowPosterCropped.jpg", "r"))
+# Picture.create!(project_id: 1, photo: File.new("Pirates4JackSparrowPosterCropped.jpg", "r"))

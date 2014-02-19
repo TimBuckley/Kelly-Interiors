@@ -1,7 +1,7 @@
 class Project < ActiveRecord::Base
   attr_accessible :title, :body
   
-  validates :title, presense: :true
+  validates :title, presence: :true
   
   has_many(
     :pictures,

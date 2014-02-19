@@ -14,17 +14,13 @@
 ActiveRecord::Schema.define(:version => 20140218012510) do
 
   create_table "pictures", :force => true do |t|
-    t.integer  "project_id",                  :null => false
+    t.integer  "project_id",         :null => false
     t.string   "photo_file_name"
     t.string   "photo_content_type"
     t.integer  "photo_file_size"
     t.datetime "photo_updated_at"
-    t.string   "{:null=>false}_file_name"
-    t.string   "{:null=>false}_content_type"
-    t.integer  "{:null=>false}_file_size"
-    t.datetime "{:null=>false}_updated_at"
-    t.datetime "created_at",                  :null => false
-    t.datetime "updated_at",                  :null => false
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
   end
 
   create_table "projects", :force => true do |t|

@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+Project.create!(title: "test proj", body: "test desc")
+Picture.create!(project_id: 1, photo: File.new("Pirates4JackSparrowPosterCropped.jpg", "r"))
